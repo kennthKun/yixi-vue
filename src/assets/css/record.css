@@ -1,0 +1,123 @@
+.secondBnnerForDetail {
+    width: 100%;
+    height: 350px;
+    max-width: 1240px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+section {
+    display: block;
+    clear: both;
+}
+.cutline {
+    border-bottom: 1px solid #aaa;
+}
+.pdt40 {
+    padding: 40px 0px;
+}
+
+.sbw1240 {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.sbw1240 h2 {
+    font-size: 3em;
+    line-height: 40px;
+    display: inline-block;
+    font-weight: 300;
+}
+.pdt40 {
+    padding: 40px 0px;
+}
+.sbw1240 {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.mainRecordList {
+    width: 100%;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.clearfix {
+}
+.mainRecordList .mainRecordCell {
+    width: 49.5%;
+    margin: 0.2%;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+    border: 1px solid #dedede;
+    box-shadow: 0px 1px 2px #bbb;
+    overflow: hidden;
+    position: relative;
+    float: left;
+    height: 450px;
+    padding: 5px;
+}
+.recordImg {
+    background-position: center top;
+    background-size: 100% 80%;
+    background-repeat: no-repeat;
+    width: 40%;
+    float: left;
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+}
+.recordWordBox {
+    width: 60%;
+    box-sizing: border-box;
+    padding: 0px 10px 0px 15px;
+    float: left;
+}
+.recordWordBox .title {
+    display: block;
+    font-size: 2em;
+    line-height: 2em;
+    border-bottom: 1px dashed #ccc;
+}
+.recordWordBox .desc {
+    padding-top: 20px;
+    display: block;
+    text-align: justify;
+    font-size: 1.6em;
+    line-height: 1.8em;
+    max-height: 360px;
+    overflow: hidden;
+}
+.recordListButton{
+    background-color: #f2f2f2;
+    border: 1px solid #ededed;
+    color: #e27d7d;
+    transition: all 0.5s; 
+}
+.recordListButton:hover{
+		background-color: #e27d7d;
+    border: 1px solid #cc3434;
+    color: #fff;
+}
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.recordListButton {
+    width: 100%;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.8em;
+    box-sizing: border-box;
+    margin: 10px 0px;
+}

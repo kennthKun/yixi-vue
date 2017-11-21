@@ -1,0 +1,338 @@
+.pdt60 {
+    padding: 60px 0px;
+}
+section {
+    display: block;
+    clear: both;
+}
+.sbw1280 {
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.baseSectionTitle {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    border-top: 2px solid #CC3434;
+    border-bottom: 2px solid #CC3434;
+    color: #CC3434;
+    box-sizing: border-box;
+    font-size: 1.8em;
+    margin: 0px auto 40px auto;
+}
+.tw400 {
+    max-width: 400px;
+    width: 90%;
+}
+.baseTopicList {
+    float: left;
+    width: 100%;
+}
+.baseTopicList li {
+    float: left;
+    width: 50%;
+    max-width: 640px;
+    margin-bottom: 10px;
+}
+.baseTopicBox {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    background-color: #666;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topicCover {
+    width: 100%;
+    height: 100%;
+    background-color: #cc3434;
+    background-color: rgba(204,52,52,0.9);
+    position: absolute;
+    z-index: 5;
+    overflow: hidden;
+    text-align: center;
+    transition: all .5s;
+}
+.untopicCover{
+	 top: -100%;
+}
+.topicCover a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.topicCover h2 {
+    font-size: 1.8em;
+    display: block;
+    line-height: 2.8em;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: white;
+    padding-bottom: 0px;
+}
+.topicCover .topicDescription {
+    font-size: 1.4em;
+    line-height: 1.6em;
+    color: white;
+    padding-top: 10px;
+    height: 90px;
+    display: inline-block;
+    overflow: hidden;
+}
+.topicCover .headbox {
+    margin-top: 10px;
+    text-align: center;
+}
+.topicCover .headbox .title {
+    font-size: 1.4em;
+    color: #ccc;
+    line-height: 2.4em;
+    display: block;
+}
+.topicCover .topicBoxHeadBoxList {
+    margin: 0 auto;
+    display: inline-block;
+    max-width: 360px;
+    text-align: center;
+}
+.topicCover .topicBoxHeadBoxList li {
+    width: 20%;
+    padding: 0px 5px;
+    width: 72px;
+    float: left;
+    box-sizing: border-box;
+}
+.topicCover .topicBoxHeadBoxList .baseHeadContent {
+    width: 100%;
+    max-width: 72px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 1px 2px #333;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.topicCover .topicBoxHeadBoxList .baseHeadContent img {
+    width: 100%;
+    float: left;
+}
+.topicCover .topicBoxHeadBoxList .name {
+    line-height: 1.4em;
+    font-size: 1.2em;
+    display: block;
+    padding-top: 5px;
+}
+.topicLink:link, .topicLink:visited {
+    width: 80%;
+    max-width: 320px;
+    height: 80px;
+    display: block;
+    line-height: 80px;
+    color: #fff;
+    border: 2px solid #fff;
+    position: relative;
+    margin: 0 auto;
+    cursor: pointer;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    text-shadow: 0px 1px 2px #999;
+    background-color: rgba(0,0,0,0.15);
+    margin-top: 20%;
+    position: relative;
+}
+
+
+.pdt80 {
+    padding: 80px 0px;
+}
+.gray {
+    background-color: #f2f2f2;
+}
+.baseSectionTitleRed {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    background-color: #CC3434;
+    color: #fff;
+    box-sizing: border-box;
+    font-size: 1.8em;
+    margin: 0px auto 40px auto;
+}
+.tw400 {
+    max-width: 400px;
+    width: 90%;
+}
+.paragraphBox {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.baseParagraph {
+    font-size: 1.8em;
+    line-height: 2em;
+    display: block;
+}
+.paragraphBox .name {
+    color: #666;
+    padding-top: 10px;
+    font-size: 1.4em;
+    line-height: 2em;
+    display: block;
+}
+.pdt60 {
+    padding: 60px 0px;
+}
+.sbw1240 {
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+.baseVideoList {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+.baseVideoList li {
+    width: 33.333%;
+    max-width: 420px;
+    padding: 0px 0.5%;
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.baseVideoBox {
+    width: 100%;
+    max-width: 400px;
+}
+.baseVideoBox .videoContent {
+    width: 100%;
+    height: 225px;
+    position: relative;
+    overflow: hidden;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.videoContent:hover .videoCover{
+	top: 0px;
+}
+.videoCover {
+    width: 100%;
+    height: 100%;
+    background-color: #cc3434;
+    background-color: rgba(204,52,52,0.9);
+    position: absolute;
+    text-align: center;
+    top: -100%;
+    overflow: hidden;
+    transition: all .2s;
+}
+.videoCover a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    color: #fff;
+}
+.videoHeadBox {
+    max-width: 64px;
+    margin: 0 auto;
+    color: white;
+	 width: 20%;
+}
+.videoCover .baseHeadContent {
+    width: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 1px 2px #333;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.videoCover .videopos {
+    margin: 0 auto;
+}
+.videoCover .baseHeadContent img {
+    width: 100%;
+    height: auto;
+    float: left;
+}
+.videoCover .name {
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+    line-height: 1.6em;
+    font-size: 1.4em;
+}
+.videoCover .speakersDescription {
+    display: block;
+    font-size: 1.3em;
+    line-height: 21px;
+    padding: 5px 0px;
+    height: 60px;
+    overflow: hidden;
+}
+.playInfoList {
+    width: 80%;
+    margin: 0 auto;
+    float: right;
+}
+.playInfoList li {
+    width: 30%;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+    height: 16px;
+    line-height: 16px;
+    color: #ccc;
+    text-align: left;
+    margin: 0px;
+}
+.baseVideoList li {
+    width: 33.333%;
+    max-width: 420px;
+    /*padding: 0px 0.5%;*/
+    float: left;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.playTime {
+    background-image: url(../playtime.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+.liked {
+    background-image: url(../Like-s.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+.comment {
+    background-image: url(../Review.png);
+    background-position: 5px center;
+    background-repeat: no-repeat;
+}
+.baseVideoBox .videoTitle {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #CC3434;
+    font-size: 1.8em;
+    line-height: 2.2em;
+}
+.clear {
+    clear: both;
+    display: block;
+    font-size: 0px;
+    line-height: 0px;
+}

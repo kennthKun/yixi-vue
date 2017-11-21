@@ -1,0 +1,156 @@
+
+<div class="wrapper">
+    <!--760main nav start-->
+    <nav class="MMainNav">
+        <div class="topArea">
+            <!--logo-->
+            <a class="logoMb">
+                <h1>一席</h1>
+            </a>
+            <!--mobile button srart-->
+            <a class="MNavButton" id="menuIcon" onClick="menuCge()"><span class="MbLine1" id="button1"></span><span
+                        class="MbLine2" id="button2"></span><span class="MbLine3" id="button3"></span></a>
+            <!--mobile button over-->
+            <div class="clear"></div>
+        </div>
+        <div class="MbListBoxOut" id="mianNavContent">
+            <div class="MpopoutBG">
+                <div class="MloginPopout">
+                    <div class="MPopoutLoginBox"><span>登录</span>
+                        <form method="POST" action="http://yixi.tv" accept-charset="UTF-8" id="mLoginForm">
+												<input name="_token" type="hidden" value="xyPf0Awkll1zLn3QD4qtuyLckrp7YpoImqFbfO5l">
+												<input type="text" class="inputText" placeholder="请输入账号" name="email">
+												<input type="password" class="inputText" placeholder="请输入密码" name="password">
+												<input type="submit" class="inputButton" value="登&nbsp;&nbsp;录">
+												<div class="Fpassword">
+													<a href="http://yixi.tv/findpassword" target="_blank">忘记密码了？</a>
+												</div>
+												<a href="#" class="chagePanel" id="MloginChage">注册新账号&nbsp;&gt;</a>
+                        </form>
+                    </div>
+                    <div class="MPopoutsignBox"><span>注册</span>
+                        <form method="POST" action="http://yixi.tv" accept-charset="UTF-8" id="mRegisterForm"><input name="_token" type="hidden" value="xyPf0Awkll1zLn3QD4qtuyLckrp7YpoImqFbfO5l">
+                        <input type="email" class="inputText" placeholder="请输入邮箱" name="email">
+                        <input type="password" class="inputText" placeholder="请输入新密码" name="password">
+                        <input type="password" class="inputText" placeholder="再次输入密码" name="repass">
+                        <input type="submit" class="inputButton" value="注&nbsp;&nbsp;册">
+                        <a href="#" class="chagePanel" id="MsignChage">&lt;&nbsp;已有账号</a>
+                        </form>
+                    </div>
+                    <a href="#" class="MpopoutCloseButton">关闭</a>
+                </div>
+            </div>
+            <div class="searchBox">
+                <input type="search" placeholder="输入关键字..." class="searchInput searchBtn">
+            </div>
+            <ul class="mbNavList">
+                <li><a href="http://yixi.tv">首页</a></li>
+                <li><a href="http://yixi.tv/albums">专题集</a></li>
+                <li><a href="http://yixi.tv/lectures/all">演讲集</a></li>
+                <li><a href="http://yixi.tv/activities">活动</a></li>
+                <li><a href="http://yixi.tv/records">纪录</a></li>
+                <!-- <li><a href="#">课堂</a></li> -->
+                <li><a href="http://yixi.tv/gifts">礼物</a></li>
+                <li><a href="http://yixi.tv/about">关于</a></li>
+            </ul>
+            <div class="MloginBox"><a href="http://yixi.tv/usercenter"
+                                      class="MloginButton">注册/登录</a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </nav>
+    <!--nav part-->
+    <div class="navBox">
+        <div class="navBg">
+            <!--mainnav start-->
+            <nav id="mainNav">
+                <!--login popout box start-->
+                <div class="loginPopout"><a class="popoutCloseButton clearfix"><span class="line1"></span><span
+                                class="line2"></span></a>
+                    <div class="PopoutLoginBox"><span>登录</span>
+                        <form method="POST" action="http://yixi.tv" accept-charset="UTF-8" id="loginForm"><input name="_token" type="hidden" value="xyPf0Awkll1zLn3QD4qtuyLckrp7YpoImqFbfO5l">
+                        <input type="text" class="inputText" placeholder="请输入账号" name="email">
+                        <input type="password" class="inputText" placeholder="请输入密码" name="password">
+                        <input type="submit" class="inputButton" value="登&nbsp;&nbsp;录">
+                        <div class="Fpassword"><a href="http://yixi.tv/findpassword" target="_blank">忘记密码了？</a></div>
+                        <a href="#" class="chagePanel" id="loginChage">注册新账号&nbsp;&gt;</a>
+                        </form>
+                    </div>
+                    <div class="PopoutsignBox"><span>注册</span>
+                        <form method="POST" action="http://yixi.tv" accept-charset="UTF-8" id="registerForm"><input name="_token" type="hidden" value="xyPf0Awkll1zLn3QD4qtuyLckrp7YpoImqFbfO5l">
+                        <input type="email" class="inputText" placeholder="请输入邮箱" name="email">
+                        <input type="password" class="inputText" placeholder="请输入新密码" name="password">
+                        <input type="password" class="inputText" placeholder="再次输入密码" name="repass">
+                        <input type="submit" class="inputButton" value="注&nbsp;&nbsp;册">
+                        <a href="#" class="chagePanel" id="signChage">&lt;&nbsp;已有账号</a>
+                        </form>
+                    </div>
+                </div>
+                <!--login popout box over-->
+                <div class="userLogin"><span><a href="http://yixi.tv/usercenter" id="MainLoginButton"
+                                                class="noBorder">注册/登录</a></span>
+                </div>
+                <div class="navSearchBox">
+                    <input class="navSearchInput searchBtn">
+                </div>
+                <a href="http://yixi.tv" class="active">首页</a>
+                <a href="http://yixi.tv/albums" >专题集</a>
+                <a href="http://yixi.tv/lectures/all" >演讲集</a>
+                <a href="http://yixi.tv/activities" >活动</a>
+                <a href="http://yixi.tv/records" >纪录</a>
+            <!-- <a href="#" >课堂</a> -->
+                <a href="http://yixi.tv/gifts" >礼物</a>
+                <a href="http://yixi.tv/about" >关于</a>
+            </nav>
+            <!--mainnav over-->
+            <!--logo-->
+            <a class="logo">
+                <h1>一席</h1>
+            </a>
+            <!--logo over-->
+        </div>
+    </div>
+    <!--body part-->
+    
+    <section>
+        <div class="bannerBox"> <a class="arrow-left" href="#"></a> <a class="arrow-right" href="#"></a>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"> 
+                        <!--content start-->
+                        <div class="slideContent" style="background-image: url(http://static.yixi.tv/background/2017-04-28/c9a7d62045a35d3e9a356ac0ba3011bb.1600x700.jpg);">
+                            <div class="bannerDiscContent">
+                                <div class="bannerDiscBox clearfix">
+                                    <a href="http://yixi.tv/lecture/420" class="clearfix">
+                                        <div class="bannerHeadBox"><img src="http://static.yixi.tv/portrait/2017-04-28/eb7402898b494d1e090ccd3cf675c3a0.160x160.jpg"></div>
+                                        <div class="bannerWordBox"><span class="title">数据与城市正义</span><span class="name">茅明睿</span><span class="brief">回龙观居民“身体被掏空”的问题要怎么解决</span></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--content over-->
+                    </div>
+                <div class="pagination"></div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+<div class="signPopout">
+    <span><img src="/images/popout_Like.png"></span>
+    <span>&Tau;&cedil;&Tau;</span>
+    <span>您还没有登录哦</span>
+    <span>登录后才能使用喜爱、评论和收藏的功能</span>
+    <span>请在导航栏处登录或注册</span>
+    <span>感谢!</span>
+    <a href="#" class="signBoxCloseButton">关闭</a>
+</div>
+<div class="basePopout">
+    <span>oops,这里有点问题</span>
+    <a href="#" class="baseCloseButton">关闭</a>
+</div>
+
+
+</body>
+</html>
